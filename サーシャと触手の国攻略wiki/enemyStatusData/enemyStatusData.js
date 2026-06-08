@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
             dungeon = data.dungeon
     });
 
-    fetch("../ItemData/json/Item.json")
+    fetch("../itemData/json/Item.json")
     .then(response => response.json())
     .then(data => {
             itemData = data
