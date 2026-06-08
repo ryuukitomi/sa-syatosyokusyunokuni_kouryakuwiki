@@ -102,7 +102,7 @@ function loadWeaponData(typeId) {
   selectItemTypeButtons[typeId-1].style.color = "rgb(185, 8, 8)";
   
   const arrayContainer = document.querySelector('.arrayItemData');
-  /*
+
   fetch("json/Weapon.json")
     .then(response => response.json())
     .then(data => {
@@ -173,14 +173,6 @@ function loadWeaponData(typeId) {
     <br>
     `
 
-    arrayContainer.insertAdjacentHTML('beforeend', code);
-    });*/
-      fetch("json/a.json")
-    .then(response => response.json())
-    .then(data => {
-    data.forEach(el => {
-      let code = el.a[11]
-    arrayContainer.innerHTML = '';
     arrayContainer.insertAdjacentHTML('beforeend', code);
     });
   });
