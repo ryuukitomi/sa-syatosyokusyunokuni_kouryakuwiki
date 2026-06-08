@@ -1,0 +1,28 @@
+.table {
+    border-width:medium;
+    border: none;
+    border-collapse: collapse;
+    margin: 0 auto;
+    vertical-align: middle;
+    text-align: left; 
+}
+
+.table th{
+    border: none; /* ← 枠線を CSS で統一 */
+    background: #adadad;
+    width: 70px;
+    padding-left: 0.5em;
+    padding-top: 0.5em;  
+    padding-bottom: 0.5em;   
+}
+
+.table td {
+    border: 1px solid #dadada;
+    background: #b4b4b469;
+    width: 70px;
+    padding-left: 0.5em;
+    padding-top: 0.5em;  
+    padding-bottom: 0.5em;
+    line-height: 1.7em;
+    white-space: pre-wrap;
+}
