@@ -1,0 +1,21 @@
+.selectDungeonButton{
+    width: 105px;
+    height: 60px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.selectDungeonButtonRow{ 
+display: flex;        /* 横並びにする */
+flex-wrap: wrap;
+gap: 40px;
+row-gap: 20px;
+position: relative;
+top: 80px;
+margin: 0 auto;
+width: calc(105px * 5 + 40px * 4);
+}
+
+.arrayEnemyStatusData{
+ margin-top: 110px;
+}
