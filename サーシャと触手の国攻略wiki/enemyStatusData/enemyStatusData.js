@@ -27,13 +27,13 @@ document.addEventListener("DOMContentLoaded", () => {
             itemData = data
     });
 
-    fetch("../ItemData/json/Weapon.json")
+    fetch("../itemData/json/Weapon.json")
     .then(response => response.json())
     .then(data => {
             weaponData = data
     });
 
-    fetch("../ItemData/json/Armor.json")
+    fetch("../itemData/json/Armor.json")
     .then(response => response.json())
     .then(data => {
             armorData = data
